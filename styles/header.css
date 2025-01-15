@@ -1,0 +1,13 @@
+header.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: var(--pink-low);
+}
+
+& .button {
+  width: 89px;
+  height: 40px;
+  border: solid;
+}
