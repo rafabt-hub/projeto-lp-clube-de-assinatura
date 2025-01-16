@@ -3,7 +3,7 @@ section.hero {
   height: 60rem;
   background-color: var(--shape-base);
   background-image: url(..//assets/images/hero-background.png);
-  background-size: 1750px 948px;
+  background-size: 130% 948px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@ button.assign {
   border: none;
   width: 5.5rem;
   height: 2.5rem;
-  border-radius: 8px;
+  border-radius: .5rem;
   background-color: var(--pink-dark);
 }
 
