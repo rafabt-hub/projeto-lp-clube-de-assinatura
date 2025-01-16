@@ -4,7 +4,7 @@ section.hero {
   background-color: var(--shape-base);
   background-image: url(..//assets/images/hero-background.png);
   background-size: 130% 948px;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
