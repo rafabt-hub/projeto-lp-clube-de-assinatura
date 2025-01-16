@@ -24,16 +24,16 @@
   --text-label: #BAC6C9;
 
   --font-family: 'Raleway', sans-serif;
-  --title-lg: 800 48px/auto var(--font-family);
-  --title-md: 800 40px/auto var(--font-family);
-  --title-sm: 800 32px/auto var(--font-family);
-  --title-xs: 800 16px/auto var(--font-family);
+  --title-lg: 800 48px/140% var(--font-family);
+  --title-md: 800 40px/140% var(--font-family);
+  --title-sm: 800 32px/140% var(--font-family);
+  --title-xs: 800 16px/140% var(--font-family);
   --subtitle: 500 32px/200% var(--font-family);
   --body-lg: 400 20px/140% var(--font-family);
   --body-md: 600 16px/140% var(--font-family);
   --body-sm: 600 14px/140% var(--font-family);
   --body-xs: 600 12px/140% var(--font-family);
-  --button: 800 14px/auto var(--font-family);
-  --link: 500 14px/auto var(--font-family);
-  --tag: 800 10px/auto var(--font-family);
+  --button: 800 14px/140% var(--font-family);
+  --link: 500 14px/140% var(--font-family);
+  --tag: 800 10px/140% var(--font-family);
 }
