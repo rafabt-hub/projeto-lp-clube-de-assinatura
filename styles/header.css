@@ -52,3 +52,23 @@ button.assign:hover {
 }
 
 
+@media (max-width: 760px) {
+section.hero {
+  background-size: auto 90%;
+}
+
+ .header {
+  padding: 2rem;
+ }
+
+ .title {
+  width: 100%;
+ }
+
+ .title h1 {
+  font: var(--title-sm);
+ }
+}
+
+
+
