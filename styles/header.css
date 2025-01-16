@@ -31,3 +31,23 @@ button.assign {
 button.assign:hover {
   background-color: var(--pink-base);
 }
+
+.title {
+  text-align: center;
+  width: 41rem;
+  height: 12.5rem;
+  justify-self: center;
+  margin-top: 10rem;
+}
+
+.title h1 {
+  font: var(--title-lg);
+  color: var(--text-title);
+}
+
+.title p {
+  font: var(--body-lg);
+  color: var(--text-body);
+}
+
+
