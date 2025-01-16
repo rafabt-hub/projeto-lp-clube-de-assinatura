@@ -43,6 +43,7 @@ button.assign:hover {
 .title h1 {
   font: var(--title-lg);
   color: var(--text-title);
+  margin-bottom: 2rem;
 }
 
 .title p {
