@@ -37,3 +37,7 @@
   --link: 500 14px/140% var(--font-family);
   --tag: 800 10px/140% var(--font-family);
 }
+
+body {
+  background-color: var(--shape-base);
+}
