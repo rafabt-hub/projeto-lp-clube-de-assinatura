@@ -1,0 +1,119 @@
+.books {
+  display: flex;
+  justify-self: center;
+  margin-top: 14.5rem;
+  margin-bottom: 5rem;
+  flex-direction: column;
+
+  & h3 {
+    font: var(--title-sm);
+    color: var(--text-title);
+  }
+}
+
+.knowkit {
+  display: flex;
+  align-items: center;
+}
+
+.subtillebooks {
+  font: var(--body-md);
+  color: var(--text-body);
+  align-self: center;
+}
+
+.bookkit {
+  display: block;
+  width: 100%;
+  max-width: 90rem;
+  height: 57.5rem;
+  overflow: hidden;
+
+  & .content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  & img {
+    position: absolute;
+  }
+
+  & img[src*="book"] {
+    width: 29rem;
+    height: 38.5rem;
+    top: 15%;
+    left: 35%;
+  }
+
+  & img[src*="mark-purple"] {
+    width: 10.75rem;
+    height: 33.5rem;
+    top: 20%;
+    left: 71%;
+    z-index: -2;
+    transform: rotate(22deg);
+  }
+
+  & img[src*="mark-yellow"] {
+    width: 10.75rem;
+    height: 33.5rem;
+    top: 8%;
+    left: 63%;
+    z-index: -1;
+    transform: rotate(12deg);
+  }
+
+  & img[src*="pin"] {
+    width: 13.875rem;
+    height: 15.875rem;
+    top: 62%;
+    left: 25%;
+    z-index: -1;
+  }
+
+  & img[src*="bkarrow"] {
+    width: 10.9375rem;
+    height: 1.875rem;
+    top: 13%;
+    left: 26%;
+  }
+
+  & img[src*="broocharrow"] {
+    width: 6.5625rem;
+    height: 7.9375rem;
+    top: 54%;
+    left: 21%;
+  }
+
+  & img[src*="pagearrow"] {
+    width: 9.0625rem;
+    height: 9.5rem;
+    top: 74%;
+    left: 69%;
+  }
+}
+
+.spanbk {
+  color: var(--text-title);
+  font: var(--body-md);
+  position: absolute;
+  top: 9%;
+  left: 21%;
+}
+
+.spanbrooch {
+  color: var(--text-title);
+  font: var(--body-md);
+  position: absolute;
+  top: 49%;
+  left: 19%;
+}
+
+.spanpage {
+  color: var(--text-title);
+  font: var(--body-md);
+  position: absolute;
+  top: 92%;
+  left: 63.5%;
+}
