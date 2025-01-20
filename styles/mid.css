@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .lbook {
@@ -23,8 +25,11 @@
   font: var(--subtitle);
 }
 
-.bodytext h2 span:hover {
-  color: var(--blue-light);
+.bodytext h2:hover {
+  color: var(--text-title);
+  & span {
+    color: var(--blue-light);
+  }
 }
 
 .twoicons {
@@ -33,6 +38,31 @@
   align-items: center;
   width: 100%;
   max-width: 1200px; 
+}
+
+.lbook img,
+.twoicons img {
+  opacity: 0;
+  transform: scale(0.8) translateY(50px); 
+  animation: fadeInUp 1.5s ease forwards;
+  animation-delay: 0.5s;
+  transition: transform 0.3s ease;
+}
+
+.lbook img:hover,
+.twoicons img:hover {
+  transform: rotate(30deg);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 
