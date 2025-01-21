@@ -24,6 +24,7 @@
 
 .bookkit {
   display: block;
+  position: relative;
   width: 100%;
   max-width: 90rem;
   height: 57.5rem;
@@ -44,24 +45,29 @@
     height: 38.5rem;
     top: 15%;
     left: 35%;
+    z-index: 1;
   }
 
   & img[src*="mark-purple"] {
     width: 10.75rem;
     height: 33.5rem;
     top: 20%;
-    left: 71%;
+    left: 70.5%;
     z-index: -2;
-    transform: rotate(22deg);
+    transform: rotate(20deg);
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
   & img[src*="mark-yellow"] {
     width: 10.75rem;
     height: 33.5rem;
-    top: 8%;
+    top: 9%;
     left: 63%;
     z-index: -1;
     transform: rotate(12deg);
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
   & img[src*="pin"] {
@@ -70,6 +76,8 @@
     top: 62%;
     left: 25%;
     z-index: -1;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
   & img[src*="bkarrow"] {
@@ -77,6 +85,8 @@
     height: 1.875rem;
     top: 13%;
     left: 26%;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
   & img[src*="broocharrow"] {
@@ -84,6 +94,8 @@
     height: 7.9375rem;
     top: 54%;
     left: 21%;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
   & img[src*="pagearrow"] {
@@ -91,6 +103,8 @@
     height: 9.5rem;
     top: 74%;
     left: 69%;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
 }
 
@@ -100,6 +114,8 @@
   position: absolute;
   top: 9%;
   left: 21%;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .spanbrooch {
@@ -108,6 +124,8 @@
   position: absolute;
   top: 49%;
   left: 19%;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .spanpage {
@@ -116,4 +134,122 @@
   position: absolute;
   top: 92%;
   left: 63.5%;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+ }
+
+
+ .bookkit:hover img[src*="mark-purple"] {
+  animation: slideInLeftPurple 0.5s forwards;
+}
+
+.bookkit:hover img[src*="mark-yellow"] {
+  animation: slideInLeftYellow 0.5s forwards;
+}
+
+.bookkit:hover img[src*="pin"] {
+  animation: slideInRightPin 0.5s forwards;
+}
+
+.bookkit:hover img[src*="bkarrow"] {
+  animation: slideInRightBkarrow 0.5s forwards;
+}
+
+.bookkit:hover img[src*="broocharrow"] {
+  animation: slideInRightBrooch 0.5s forwards;
+}
+
+.bookkit:hover img[src*="pagearrow"] {
+  animation: slideInLeftPagearrow 0.5s forwards;
+}
+
+.bookkit:hover .spanbk {
+  opacity: 1;
+  animation: fadeIn 0.5s forwards;
+}
+
+.bookkit:hover .spanbrooch {
+  opacity: 1;
+  animation: fadeIn 0.5s forwards;
+}
+
+.bookkit:hover .spanpage {
+  opacity: 1;
+  animation: fadeIn 0.5s forwards;
+}
+
+/* Animações keyframes */
+@keyframes slideInLeftPurple {
+  from {
+    transform: translateX(30px) rotate(20deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(20deg);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeftYellow {
+  from {
+    transform: translateX(30px) rotate(12deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(12deg);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRightPin {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRightBkarrow {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRightBrooch {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeftPagearrow {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
