@@ -31,7 +31,7 @@ section.prices {
   & h2 {
     margin-bottom: 1rem;
     color: var(--blue-light);
-    font: var(--title-sx);
+    font: var(--title-xs);
   }
 
   & h3 {
@@ -73,7 +73,7 @@ section.prices {
 .mensalbutton {
   width: 14rem;
   height: 2.5rem;
-  font: var(--ag-button);
+  font: var(--button);
   color: var(--text-title);
   margin-top: 1rem;
   margin-left: 2rem;
@@ -95,7 +95,7 @@ section.prices {
 
   & h2 {
     color: var(--pink-light);
-    font: var(--title-sx);
+    font: var(--title-xs);
   }
 
   & h3 {
@@ -116,7 +116,7 @@ section.prices {
   & .semestralbutton {
    width: 14rem;
    height: 2.5rem;
-   font: var(--ag-button);
+   font: var(--button);
    color: var(--text-title);
    margin-left: 2rem;
    border-radius: .5rem;
@@ -145,7 +145,7 @@ section.prices {
       height: 1.2rem;
       text-align: center;
       color: var(--text-body);
-      font: var(--ag-tag);
+      font: var(--tag);
       border-radius: .5rem;
       background-color: var(--shape-stroke);
     }
@@ -175,7 +175,7 @@ section.prices {
   & h2 {
     margin-bottom: 1rem;
     color: var(--blue-light);
-    font: var(--title-sx);
+    font: var(--title-xs);
   }
 
   & h3 {
@@ -213,7 +213,7 @@ section.prices {
 .anualbutton {
   width: 14rem;
   height: 2.5rem;
-  font: var(--ag-button);
+  font: var(--button);
   color: var(--text-title);
   margin-left: 2rem;
   border-radius: .5rem;
