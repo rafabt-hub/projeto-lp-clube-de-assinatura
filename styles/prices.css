@@ -1,0 +1,158 @@
+.titleprices {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+  margin-top: 25rem;
+
+  color: var(--text-title);
+  font: var(--title-sm);
+}
+
+section.prices {
+  width: 90rem;
+  height: 77.5rem;
+  justify-self: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.pricesbox1 {
+  width: 18rem;
+  height: 26rem;
+  margin-top: 10rem;
+  margin-left: 20rem;
+  border-radius: 2rem;
+  background-color: var(--shape-base);
+  border: 2px var(--shape-stroke) solid;
+  rotate: -12deg;
+
+  & h2 {
+    color: var(--blue-light);
+    font: var(--title-sx);
+  }
+
+  & h3 {
+    color: var(--text-title);
+    font: var(--title-sm);
+  }
+
+  & p {
+    color: var(--text-label);
+    font: var(--body-sm);
+  }
+
+  & img {
+    rotate: 5deg;
+  }
+}
+
+.headbox {
+  padding: 2rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 3rem;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+
+  & span {
+    color: var(--text-body);
+    font: var(--body-xs);
+  }
+}
+
+.mensalbutton {
+  width: 14rem;
+  height: 2.5rem;
+  font: var(--ag-button);
+  color: var(--text-title);
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: .5rem;
+  background-color: var(--blue-dark);
+  border: none;
+}
+
+.pricesbox2 {
+  width: 18rem;
+  height: 26rem;
+  border-radius: 2rem;
+  background-color: var(--shape-base);
+  border: 2px var(--shape-stroke) solid;
+  z-index: 1;
+  margin-top: 4rem;
+
+  & h2 {
+    color: var(--pink-light);
+    font: var(--title-sx);
+  }
+
+  & h3 {
+    color: var(--text-title);
+    font: var(--title-sm);
+  }
+
+  & p {
+    color: var(--text-label);
+    font: var(--body-sm);
+  }
+
+  & img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  & .semestralbutton {
+   width: 14rem;
+   height: 2.5rem;
+   font: var(--ag-button);
+   color: var(--text-title);
+   margin-top: .5rem;
+   margin-left: 2rem;
+   border-radius: .5rem;
+   background-color: var(--pink-dark);
+   border: none;
+  }
+
+  & .list2 {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   margin-top: .5rem;
+  }
+
+  & .pop {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+    & span {
+      width: 5rem;
+      height: 1.2rem;
+      text-align: center;
+      color: var(--text-body);
+      font: var(--ag-tag);
+      border-radius: .5rem;
+      background-color: var(--shape-stroke);
+    }
+  }
+
+  & .list2 li {
+  display: flex;
+  align-items: center;
+  
+  & span {
+    color: var(--text-body);
+    font: var(--body-xs);
+  }
+ }
+}
