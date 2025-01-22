@@ -4,6 +4,7 @@
   justify-self: center;
   text-align: center;
   margin-top: 25rem;
+  margin-bottom: 4rem;
 
   color: var(--text-title);
   font: var(--title-sm);
@@ -28,6 +29,7 @@ section.prices {
   rotate: -12deg;
 
   & h2 {
+    margin-bottom: 1rem;
     color: var(--blue-light);
     font: var(--title-sx);
   }
@@ -55,7 +57,7 @@ section.prices {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 
 .list li {
@@ -78,6 +80,8 @@ section.prices {
   border-radius: .5rem;
   background-color: var(--blue-dark);
   border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
 }
 
 .pricesbox2 {
@@ -114,18 +118,19 @@ section.prices {
    height: 2.5rem;
    font: var(--ag-button);
    color: var(--text-title);
-   margin-top: .5rem;
    margin-left: 2rem;
    border-radius: .5rem;
    background-color: var(--pink-dark);
    border: none;
+   cursor: pointer;
+   transition: background-color 0.5s ease;
   }
 
   & .list2 {
    list-style: none;
    padding: 0;
    margin: 0;
-   margin-top: .5rem;
+   margin-top: 2rem;
   }
 
   & .pop {
@@ -155,4 +160,128 @@ section.prices {
     font: var(--body-xs);
   }
  }
+}
+
+.pricesbox3 {
+  width: 18rem;
+  height: 26rem;
+  margin-top: 10rem;
+  margin-left: 1rem;
+  border-radius: 2rem;
+  background-color: var(--shape-base);
+  border: 2px var(--shape-stroke) solid;
+  rotate: 12deg;
+
+  & h2 {
+    margin-bottom: 1rem;
+    color: var(--blue-light);
+    font: var(--title-sx);
+  }
+
+  & h3 {
+    color: var(--text-title);
+    font: var(--title-sm);
+  }
+
+  & p {
+    color: var(--text-label);
+    font: var(--body-sm);
+  }
+
+  & img {
+    rotate: 13deg;
+  }
+
+  & .list3 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   }
+  
+  & .list3 li {
+    display: flex;
+    align-items: center;
+
+
+    & span {
+      color: var(--text-body);
+      font: var(--body-xs);
+    }
+  }
+}
+
+.anualbutton {
+  width: 14rem;
+  height: 2.5rem;
+  font: var(--ag-button);
+  color: var(--text-title);
+  margin-left: 2rem;
+  border-radius: .5rem;
+  background-color: var(--blue-dark);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.pricesbox1, .pricesbox2, .pricesbox3 {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8;
+}
+
+.pricesbox1:hover, .pricesbox2:hover, .pricesbox3:hover {
+  background-color: var(--shape-stroke);
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.mensalbutton:hover, .anualbutton:hover {
+  background: var(--blue-mid);
+}
+
+.semestralbutton:hover {
+  background: var(--pink-base);
+}
+
+.habbit {
+  position: absolute;
+  left: 45%;
+  top: 445%;
+}
+
+.starpurple1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  position: absolute;
+  left: 19%;
+  top: 465%
+ }
+ 
+.starpurple1 img:first-child {
+    width: 2rem;
+    height: 2rem;
+ }
+
+.starpurple1 img:last-child {
+    width: 4rem;
+    height: 4rem;
+}
+
+.starpurple2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  left: 85%;
+  top: 96%;
+}
+
+.starpurple2 img:first-child {
+  width: 2rem;
+  height: 2rem;
+}
+
+.starpurple2 img:last-child {
+  width: 4rem;
+  height: 4rem;
 }
