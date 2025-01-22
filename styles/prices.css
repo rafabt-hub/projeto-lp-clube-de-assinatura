@@ -245,7 +245,7 @@ section.prices {
 .habbit {
   position: absolute;
   left: 45%;
-  top: 445%;
+  top: 468%;
 }
 
 .starpurple1 {
@@ -253,8 +253,8 @@ section.prices {
   align-items: center;
   flex-direction: column-reverse;
   position: absolute;
-  left: 19%;
-  top: 465%
+  left: 18%;
+  top: 485%
  }
  
 .starpurple1 img:first-child {
