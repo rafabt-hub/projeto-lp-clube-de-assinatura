@@ -1,0 +1,28 @@
+.footer {
+  width: 90rem;
+  height: 26rem;
+  justify-self: center;
+  overflow: hidden;
+
+  background-image: url(../assets/images/trace-background.png);
+  background-color: var(--shape-base);
+  background-size: cover;
+}
+
+.left1 {
+  display: flex;
+  margin-left: 6rem;
+  margin-top: 12rem;
+}
+
+.left2 {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: .5rem;
+  margin-left: 6rem;
+}
+
+.left2 a:hover img {
+  color: var(--shape-base);
+}
