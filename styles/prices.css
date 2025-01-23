@@ -243,9 +243,9 @@ section.prices {
 }
 
 .habbit {
-  position: absolute;
-  left: 45%;
-  top: 468%;
+  position: relative;
+  top: -10%;
+  left: 9%;
 }
 
 .starpurple1 {
@@ -253,8 +253,8 @@ section.prices {
   align-items: center;
   flex-direction: column-reverse;
   position: absolute;
-  left: 18%;
-  top: 485%
+  left: -18%;
+  top: -2%;
  }
  
 .starpurple1 img:first-child {
@@ -267,12 +267,20 @@ section.prices {
     height: 4rem;
 }
 
+.starpurple1 img:first-child:hover {
+  rotate: 30deg;
+}
+
+.starpurple1 img:last-child:hover {
+  rotate: 30deg;
+}
+
 .starpurple2 {
   display: flex;
   align-items: center;
   flex-direction: row;
   position: absolute;
-  left: 85%;
+  left: 80%;
   top: 96%;
 }
 
@@ -284,4 +292,12 @@ section.prices {
 .starpurple2 img:last-child {
   width: 4rem;
   height: 4rem;
+}
+
+.starpurple2 img:first-child:hover {
+  rotate: 30deg;
+}
+
+.starpurple2 img:last-child:hover {
+  rotate: 30deg;
 }
