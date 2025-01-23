@@ -4,6 +4,7 @@
   margin-top: 14.5rem;
   margin-bottom: 5rem;
   flex-direction: column;
+  background-color: var(--shape-background);
 
   & h3 {
     font: var(--title-sm);
