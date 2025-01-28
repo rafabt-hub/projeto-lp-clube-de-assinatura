@@ -1,6 +1,6 @@
 section.hero {
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   background-color: var(--shape-background);
   background-image: url(..//assets/images/hero-background.png);
   background-size: cover;
@@ -54,7 +54,7 @@ button.assign:hover {
 
 @media (max-width: 760px) {
 section.hero {
-  background-size: cover; /* Ajusta para cobrir a tela em dispositivos menores */
+  background-size: cover;
   background-position: center;
 }
 
