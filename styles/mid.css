@@ -67,6 +67,13 @@
 }
 
 
+@media (max-width: 760px) {
+  .bodytext h2 {
+    color: var(--text-label);
+    font: var(--body-sm);
+  }
+}
+
 
 
 

@@ -1,9 +1,9 @@
 section.hero {
   width: 100%;
-  height: 60rem;
+  min-height: 100vh;
   background-color: var(--shape-background);
   background-image: url(..//assets/images/hero-background.png);
-  background-size: 130% 948px;
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
@@ -54,7 +54,8 @@ button.assign:hover {
 
 @media (max-width: 760px) {
 section.hero {
-  background-size: auto 90%;
+  background-size: cover; /* Ajusta para cobrir a tela em dispositivos menores */
+  background-position: center;
 }
 
  .header {
@@ -66,8 +67,14 @@ section.hero {
  }
 
  .title h1 {
-  font: var(--title-sm);
+  font: var(--body-lg);
+  color: var(--text-title);
  }
+
+ .title p {
+  font: var(--body-sm);
+  color: var(--text-body);
+}
 }
 
 

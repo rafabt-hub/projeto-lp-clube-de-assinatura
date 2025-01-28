@@ -253,3 +253,15 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 760px) {
+.books {
+  & h3 {
+    font: var(--title-xs);
+    color: var(--text-title);
+  }
+}
+.subtillebooks {
+  font: var(--body-xs);
+}
+}
